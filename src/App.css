@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1em;
+  background-color: whitesmoke;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.body {
+  width: auto;
+  margin:200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.navbar li {
+  display: inline;
+  margin: 10px;
+}
+
+.about {
+  text-align: center;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.media img {
+  width: 850px;
+  margin: 25px;
+}
