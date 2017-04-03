@@ -1,9 +1,17 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: 1.1em;
   background-color: whitesmoke;
 }
@@ -19,6 +27,7 @@
 }
 
 .body {
+  padding: 0;
   width: auto;
   margin:200px;
   display: flex;
@@ -28,10 +37,11 @@
 }
 
 .navbar {
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 40px;
 }
 
 .navbar li {
@@ -49,7 +59,6 @@
 .media {
   display: flex;
   flex-direction: column;
-  padding: 10px;
 }
 
 .media img {
